@@ -1,0 +1,50 @@
+{
+  "name": "shadowhawk-minecraft-server-setuper",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Modern Minecraft server management application",
+  "main": "./app/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron .",
+    "dev": "npm run build && electron . --inspect",
+    "electron:build": "npm run build && electron-builder",
+    "dist": "npm run electron:build",
+    "clean": "rimraf app dist"
+  },
+  "dependencies": {
+    "node-tunnel": "^4.0.7",
+    "pidusage": "^4.0.1",
+    "rcon-client": "^4.2.3",
+    "systeminformation": "^5.21.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "@types/pidusage": "^2.0.5",
+    "electron": "^26.2.1",
+    "electron-builder": "^24.6.4",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.0.2"
+  },
+  "build": {
+    "appId": "com.shadowhawk.minecraft-server-manager",
+    "productName": "ShadowHawk Minecraft Server Manager",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "app/**/*",
+      "renderer/**/*",
+      "node_modules/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.games"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
