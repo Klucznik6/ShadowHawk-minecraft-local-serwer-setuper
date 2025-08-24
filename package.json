@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "Modern Minecraft server management application",
+  "author": "ShadowHawk Developer",
   "main": "./app/main.js",
   "scripts": {
     "build": "tsc",
@@ -30,7 +31,7 @@
     "appId": "com.shadowhawk.minecraft-server-manager",
     "productName": "ShadowHawk Minecraft Server Manager",
     "directories": {
-      "output": "release"
+      "output": "dist"
     },
     "files": [
       "app/**/*",
@@ -41,7 +42,14 @@
       "category": "public.app-category.games"
     },
     "win": {
-      "target": "nsis"
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "forceCodeSigning": false,
+      "sign": null
     },
     "linux": {
       "target": "AppImage"
