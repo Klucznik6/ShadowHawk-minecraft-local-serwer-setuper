@@ -1,4 +1,4 @@
-# 🚀 ShadowHawk Minecraft Server Manager
+# ShadowHawk Minecraft Server Manager
 
 A powerful, modern desktop application for managing Minecraft servers with **advanced networking capabilities**. Built with **Electron + TypeScript** for professional server administration and automatic internet connectivity.
 
