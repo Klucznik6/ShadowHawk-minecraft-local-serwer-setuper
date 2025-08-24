@@ -18,12 +18,7 @@ A powerful, modern desktop application for managing Minecraft servers on **local
 - **📊 Network Testing**: Validates local connectivity and provides connection info
 - **⚡ Instant Access**: Friends on your WiFi can connect immediatelywork Gaming Features **Electron + TypeScript** for professional server administration, perfect for **LAN parties**, home networks, and VPN gaming with friends!
 
-![ShadowHawk Server Manager](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-green?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)dowHawk Minecraft Server Manager
-
-A powerful, modern desktop application for managing Minecraft servers with **advanced networking capabilities**. Built with **Electron + TypeScript** for professional server administration and automatic internet connectivity.
-
 ![ShadowHawk Server Manager](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-green?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
-
 ## ✨ Key Features
 
 ### 🎮 **Server Management**
